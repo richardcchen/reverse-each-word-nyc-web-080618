@@ -7,5 +7,6 @@ def reverse_each_word(string)
     counter += 1
   end
   
+  revarray.join(" ")
   
 end
