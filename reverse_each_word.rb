@@ -10,5 +10,17 @@ def reverse_each_word(string)
   end
   
   revarray.join(" ")
+=end
+
+array = string.split(" ")
+  revarray = []
+  counter = 0
+  array.each collect |word|
+    revarray[counter] = word.reverse!
+    counter += 1
+  end
   
+  revarray.join(" ")
+
+
 end
